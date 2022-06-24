@@ -1,7 +1,7 @@
 *** Settings ***
 Documentation       A test suite for login.
-Resource            ../Resources/Common.robot
-Resource            ../SSO/Login.robot
+Resource            ../../Resources/Common.robot
+Resource            ../../Resources/PO/Login.robot
 Library             robot.libraries.DateTime
 
 Default Tags      smoke
