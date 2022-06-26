@@ -1,1 +1,201 @@
+                                  **bug report in YallaKora APP**
+                                  ======================
+**Title:** The App crash when click on the calender icon in the matches screen after user choose favorite team 
 
+**ReproducibleSteps:**
+1. Download YallaKora APP 
+2.open the App
+3.click on "فرقك" 
+4.click on the add icon 
+5.click on any leage 
+6.choose any team 
+7.click on "موافق"
+8.click on "مباريات "
+9.click on the calender icon 
+
+**ExpectedResult** the calender icon open and user can choose any day from the date picker 
+**ActualResult** The App crash when click on the calender icon in the matches screen after user choose favorite team 
+
+**Attachments:**https://github.com/alinabil1/Ali-Nabil/blob/main/video2.mp4
+
+**AffectedDevices: ** oppo F11
+
+**Network:** Wifi
+
+**Severity:**high
+**Priority:**high
+**Impact:** user can not get his favorite team matches in a spsific date  and user will take bad impression about the app
+
+= = = = = = = = = = = = = = = = = = = = = = = 
+**Title:** Date picker for games section won't collapse when user clicks on back button or any empty space
+
+**ReproducibleSteps:**
+
+1. Download YallaKora APP 
+2.open the App
+3.click on "مباريات"
+4.click on the calendar icon 
+5.click on the back button or any space in the sreen
+
+**ExpectedResult** the date picker should close when user clicks on back button or any empty space
+**ActualResult**the date picker does not close until user selete any date 
+
+**Attachments:** https://github.com/alinabil1/Ali-Nabil/blob/main/video1.mp4
+
+**AffectedDevices: ** oppo F11
+
+**Network:** Wifi
+
+**Severity:** medium
+**Priority:** medium
+**Impact:** user can not  close the date picker until choose any date , so the user will get bored
+
+= = = = = = = = = = = = = = = = = = = = = = = 
+Title: Open today's matches won't open If date picker is set to a day in the future
+
+**ReproducibleSteps:**
+1. Download YallaKora APP 
+2.open the App
+3.click on "مباريات"
+4.choose any day does not match the current day
+5.click on the "الرئيسية"
+6.click on "كل المباريات" in the "مباريات اليوم"section
+ 
+**ExpectedResult** when user clicks on "كل المباريات" in the "مباريات اليوم"section , the user will navigate to the matches screen and the selected day is the current day
+**ActualResult**when user clicks on "كل المباريات" in the "مباريات اليوم"section , the user will navigate to the matches screen but the selected day is not the current day and the day selected which user select it befor
+
+**Attachments:**https://github.com/alinabil1/Ali-Nabil/blob/main/video5.mp4
+
+**AffectedDevices: ** oppo F11
+
+**Network:** Wifi
+
+**Severity:**medium
+**Priority:**high
+**Impact:** user has a cofilte due to he expect all matches will show the current day match
+= = = = = = = = = = = = = = = = = = = = = = = 
+Title: Selected filter in the all matches drop menu is not highlighted
+
+**ReproducibleSteps:**
+
+1. Download YallaKora APP 
+2.open the App
+3.click on "مباريات"
+4.click on "كل المباريات" drop menu
+5.select any filter 
+
+**ExpectedResult** The chosen filter by the user should be selected to indicate the user which filter is selected 
+**ActualResult** After user select afilter it does not highlighted
+
+**Attachments:** https://github.com/alinabil1/Ali-Nabil/blob/main/video4.mp4
+
+**AffectedDevices: ** oppo F11
+
+**Network:** Wifi
+
+**Severity:**low
+**Priority:**low
+**Impact:**  user does not know which filter he submitted 
+
+= = = = = = = = = = = = = = = = = = = = = = = 
+Title: There is a filter for different leagues but once an option is selected All leagues option can't be open again
+
+**ReproducibleSteps:**
+
+1. Download YallaKora APP 
+2.open the App
+3.click on "مباريات"
+4.click on "كل المباريات" drop menu
+5.select any filter 
+
+**ExpectedResult** In the all matches drop menu should be option All to show the all matches again without filtration
+**ActualResult** In the all matches drop menu there is not option All to show the all matches again without filtration
+
+**Attachments:** https://github.com/alinabil1/Ali-Nabil/blob/main/video6.mp4
+
+**AffectedDevices: ** oppo F11
+
+**Network:** Wifi
+
+**Severity:** low
+**Priority:**medium
+**Impact:** user can not show all leagues after user filter by any league 
+
+= = = = = = = = = = = = = = = = = = = = = = = 
+Title: When user add a team in favorites ,The team won't seleted as a favorites in the all matches screen 
+
+**ReproducibleSteps:**
+
+1. Download YallaKora APP 
+2.open the App
+3.click on "فرقك" 
+4.click on the add icon 
+5.click on any leage 
+6.choose any team 
+7.click on "موافق"
+8.click on "مباريات "
+9.check any match for the selected favouirt team in the selected leage
+
+**ExpectedResult** the favorite icon appear next to the selected favouirt team in the selected leage in any match for this team 
+**ActualResult** the favorite icon does not appear next to the selected favouirt team in the selected leage in any match for this team 
+
+**Attachments:**https://github.com/alinabil1/Ali-Nabil/blob/main/video3.mp4
+
+**AffectedDevices: ** oppo F11
+
+**Network:** Wifi
+
+**Severity:** low
+**Priority:** medium 
+**Impact:** user can not know his favourite team matches , due to the matches does not selected as favourite
+
+= = = = = = = = = = = = = = = = = = = = = = = 
+                   **high level scenarios**
+                   ================
+**Home **
+
+Verify today's matches appear on the home page  (priority=1 )
+Verify user can go to all today's matches page from home page (priority=1 )
+Verify user can go to news page from home page (priority=2 )
+Verify that user can open his faviourt teams by click on your team in the navigation bar (priority=2 )
+Verify that latest news appear in the above section in home screen and user can slid between them (priority=3 )
+Verify than user can navigate to news screen by click on all news link or from news tab in the navigation bar (priority=3 )
+Verify user can navigate to the tournament by click on tournament in the navigation bar (priority=2 )
+
+**Matches and Tournament**
+Verify user can filter matches with dates using a date picker (priority=2 )
+Verify all live matches appear when user clicks on the video icon (live matches filter ) (priority=1 )
+Verify the current day is selected by defult when open the matches screen and all matches in this day appear (priority=1 )
+Verify user can use the day quick filter and the matches on this day will appear (priority=1 )
+Verify the matches in the same league are grouped to gether (priority=2 )
+Verify favorite teams games are shown first, before other teams games (priority=2 )
+Verify user can filter matches by selecting a tournament from drop down list (priority=2 )
+Verify for every match the teams name and logo appear (priority=1 )
+Verify for every match the match status appear if match is ended or live(priority=1 )
+Verfy for the ended and live matches the match result appear (priority=1 )
+Verify for matches which not start the match time appear (priority=1 )
+Verify for matches which not start the match chanel appear if it known (priority=3 )
+Verify user cab view the match detiels (result-status-Summary- formation- minute by minute )when he clicks on the match card  (priority=1 )
+Verify the sumery tab of the match show ( the man of the match - the most important events - stats- table) (priority=1 )
+Verify the formation tab of the match show the match formation (priority=2 )
+Verify the minute by minute tab of the match show the match events minute by minute (priority=2 )
+Verify user can view tournament details (matches - table - stats - news) when he clicks on the tournament name (priority=1 )
+Verify user can view the table of the tournament when click on the table tab  (priority=1 )
+Verify user can view the matches in the tournament when click on matches tab (priority=1 )
+Verify user can view the final match when click on final drop menu (priority=2)
+Verify user can view stats of the tournament when click on stats (priority=3 )
+Verify user can view the scorers list of the tournament in the stats tab and can view the all scorers by click on all scorers link (priority=2 )
+Verify user can view the list of goal makers of the tournament in the stats tab and can view the all goal makers by click on all goal makers (priority=3 )
+Verify user can view the news of the tournament when he clicks on the news tab (priority=2 )
+
+ **My teams**
+Verify user can add teams to his favorite teams (priority=2 )
+Verify user can remove teams from his favorites teams (priority=2 ) 
+Verify the favorite teams appear in your team screen (priority=2 )
+
+**News**
+Verify when user click on any news , he will navigate to the news detiels (priority=3 )
+Verify that news screen contain the letest news and other sports tab (priority=4 )
+Verify that the other sports tab show news of other sports   (priority=4 )  
+
+**Note** the high priority  = 1        
